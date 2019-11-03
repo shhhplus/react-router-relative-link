@@ -12,7 +12,7 @@
 
 ## How to use
 
-```javascript
+```jsx
 import { Link, NavLink } from '@shhhplus/react-router-relative-link';
 
 const Com = props => {
