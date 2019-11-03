@@ -2,9 +2,9 @@
 
 ## Introduction
 
-* A wrapper around react-router's Link and NavLink that allows relative paths.
+- A wrapper around react-router's Link and NavLink that allows relative paths.
 
-* **Supports react-router-dom 5.x.x**
+- **Supports react-router-dom 5.x.x**
 
 ## Install
 
@@ -32,5 +32,5 @@ const Com = props => {
       </div>
     </div>
   );
-}
+};
 ```
