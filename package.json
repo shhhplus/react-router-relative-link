@@ -1,6 +1,7 @@
 {
-  "name": "cra-demo",
-  "version": "0.1.0",
+  "name": "react-router-relative-link",
+  "version": "0.1.1",
+  "description": "A wrapper around react-router's Link and NavLink that allows relative paths.",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
