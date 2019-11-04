@@ -7,7 +7,7 @@ export default {
   input: 'src/components/index.js',
   output: {
     file: 'dist/index.js',
-    format: 'amd',
+    format: 'cjs',
     sourcemap: true,
   },
   plugins: [
