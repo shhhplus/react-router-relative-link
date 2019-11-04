@@ -1,2 +1,9 @@
-export { default as Link } from './Link';
-export { default as NavLink } from './NavLink';
+import Link from './Link';
+import NavLink from './NavLink';
+
+export default {
+  Link,
+  NavLink,
+};
+
+export { Link, NavLink };
