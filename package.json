@@ -1,6 +1,6 @@
 {
   "name": "react-router-relative-link",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A wrapper around react-router's Link and NavLink that allows relative paths.",
   "private": true,
   "dependencies": {
