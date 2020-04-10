@@ -1,9 +1,4 @@
-import React from 'react';
-import { NavLink, useRouteMatch } from 'react-router-dom';
-import path from 'path';
+import { NavLink } from 'react-router-dom';
+import withRelative from '../withRelative';
 
-export default ({ to, ...rest }) => {
-  const { url } = useRouteMatch();
-  const realTo = path.join(url, to);
-  return <NavLink {...rest} to={realTo} />;
-};
+export default withRelative(NavLink);

@@ -1,9 +1,4 @@
-import React from 'react';
-import { Link, useRouteMatch } from 'react-router-dom';
-import path from 'path';
+import { Link } from 'react-router-dom';
+import withRelative from '../withRelative';
 
-export default ({ to, ...rest }) => {
-  const { url } = useRouteMatch();
-  const realTo = path.join(url, to);
-  return <Link {...rest} to={realTo} />;
-};
+export default withRelative(Link);
