@@ -1,8 +1,5 @@
 import { ComponentType } from 'react';
 
-type RelativeLink = ComponentType<any>;
+export const Link: ComponentType<any>;
 
-export namespace All {
-  const Link: RelativeLink;
-  const NavLink: RelativeLink;
-}
+export const NavLink: ComponentType<any>;
